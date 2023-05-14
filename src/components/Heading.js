@@ -9,7 +9,9 @@ function Heading() {
       <Container className="h-100 d-flex pt-md-5">
         <Row className=" d-flex justify-content-center align-items-center">
           <Col md="6" className="tagline">
-            <h2>sewa &amp; rental mobil terbaik dikawasan lokasimu</h2>
+            <h2 style={{ fontWeight: "bold" }}>
+              sewa &amp; rental mobil terbaik dikawasan Purwokerto
+            </h2>
             <p>
               Selamat datang di Binar Car Rental. Kami menyediakan mobil
               kualitas terbaik dengan harga terjangkau. Selalu siap melayani
