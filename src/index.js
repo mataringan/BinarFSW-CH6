@@ -5,12 +5,8 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./pages/App";
 import Sewa from "./pages/Sewa";
-import { createStore, compose, applyMiddleware } from "redux";
+import { store } from "./app/store";
 import { Provider } from "react-redux";
-import thunk from "redux-thunk";
-import reducers from "./reducers";
-
-const store = createStore(reducers, compose(applyMiddleware(thunk)));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

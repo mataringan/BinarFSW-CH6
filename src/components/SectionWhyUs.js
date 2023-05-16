@@ -4,7 +4,7 @@ export default function SectionWhyUs() {
   return (
     <div className="why-us py-5" id="why-us">
       <div className="container py-5">
-        <h3>Why Us?</h3>
+        <h3 className="fw-bold">Why Us?</h3>
         <p>Mengapa harus pilih Binar Car Rental?</p>
         <div className="row">
           <div className="col-12 col-sm-6 col-md-3 my-2">
