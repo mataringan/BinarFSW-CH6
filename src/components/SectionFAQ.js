@@ -1,5 +1,6 @@
 import "../styles/App.css";
 import { Accordion, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function SectionFAQ() {
   return (
@@ -11,9 +12,9 @@ export default function SectionFAQ() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </p>
-          <a href="/sewa" className="btn btn-success">
+          <Link to={"/sewa"} className="btn btn-success">
             Mulai Sewa Mobil
-          </a>
+          </Link>
         </div>
       </div>
       <div className="faq py-5" id="faq">
