@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navigation from "../components/Navigation";
 import Heading from "../components/Heading";
-import SectionService from "../components/SectionService";
-import SectionWhyUs from "../components/SectionWhyUs";
-import SectionTesti from "../components/SectionTesti";
-import SectionFAQ from "../components/SectionFAQ";
+import Service from "../components/Service";
+import WhyUs from "../components/WhyUs";
+import Testi from "../components/Testi";
+import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 
 function App() {
@@ -12,10 +12,10 @@ function App() {
     <div className="home-page">
       <Navigation />
       <Heading />
-      <SectionService />
-      <SectionWhyUs />
-      <SectionTesti />
-      <SectionFAQ />
+      <Service />
+      <WhyUs />
+      <Testi />
+      <FAQ />
       <Footer />
     </div>
   );
