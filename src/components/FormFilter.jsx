@@ -92,7 +92,6 @@ export default function FormFilter() {
                 value={capacity}
                 placeholder="Jumlah Penumpang"
                 onChange={(e) => setCapacity(e.target.value)}
-                onKeyPress={(e) => !/[0-9]/.test(e.key) && e.preventDefault()}
                 style={{ width: "100%", height: "40px" }}
               />
             </Col>
