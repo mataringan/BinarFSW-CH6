@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const FILTERED_CARS = "FILTERED_CARS";
 
-export const getFilteredCar = (params) => {
+export const getFilteredCar = (values) => {
   return (dispatch) => {
     dispatch({
       type: FILTERED_CARS,
@@ -18,7 +18,7 @@ export const getFilteredCar = (params) => {
       timeout: 80000,
     })
       .then((response) => {
-        const { driver, date, capacity } = params;
+        const { driver, date, capacity } = values;
 
         const filter = response.data.filter(
           (car) =>
