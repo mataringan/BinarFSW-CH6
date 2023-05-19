@@ -14,6 +14,10 @@ It's route for sewapage.
 
 React Bootstrap
 
+## Deploy
+
+https://binarfswch6.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
