@@ -153,7 +153,6 @@
 
 .why-us .card-body.yellow:hover * {
   z-index: 9;
-  color: white;
 }
 
 .why-us .card-body.yellow::before {
@@ -168,18 +167,12 @@
   clip-path: circle(7% at 32.3px 35.3px);
 }
 
-.why-us .card-body:hover.yellow::before {
-  clip-path: circle(100%);
-  border-radius: 5px;
-}
-
 /* end */
 
 /* custom red transition */
 
 .why-us .card-body.red:hover * {
   z-index: 9;
-  color: white;
 }
 
 .why-us .card-body.red::before {
@@ -195,18 +188,12 @@
   clip-path: circle(7% at 32.3px 34.3px);
 }
 
-.why-us .card-body:hover.red::before {
-  clip-path: circle(100%);
-  border-radius: 5px;
-}
-
 /* end */
 
 /* custom red transition */
 
 .why-us .card-body.blue:hover * {
   z-index: 9;
-  color: white;
 }
 
 .why-us .card-body.blue::before {
@@ -222,18 +209,12 @@
   clip-path: circle(7% at 32.3px 34.3px);
 }
 
-.why-us .card-body:hover.blue::before {
-  clip-path: circle(100%);
-  border-radius: 5px;
-}
-
 /* end */
 
 /* custom red transition */
 
 .why-us .card-body.green:hover * {
   z-index: 9;
-  color: white;
 }
 
 .why-us .card-body.green::before {
@@ -247,11 +228,6 @@
   background-color: #5cb85f;
   transition: 0.5s ease;
   clip-path: circle(7% at 32.3px 35.3px);
-}
-
-.why-us .card-body:hover.green::before {
-  clip-path: circle(100%);
-  border-radius: 5px;
 }
 
 /* end */
