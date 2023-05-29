@@ -14,7 +14,7 @@ export default function SectionWhyUs() {
                 <p>Mobil Lengkap</p>
                 <p>
                   Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
-                  terawat
+                  terawat.
                 </p>
               </div>
             </div>
